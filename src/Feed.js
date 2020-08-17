@@ -1,5 +1,6 @@
 import React from 'react';
 import './Feed.css';
+import TweetBox from './TweetBox';
 
 
 function Feed() {
@@ -9,42 +10,9 @@ function Feed() {
       <div className="feed__header">
         <h2>Home</h2>
       </div>
-
-      {/* TweetBotx */}
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-      <h3>ABC</h3>
-
+      <TweetBox />
+    
+      <Post />
 
       {/* Post */}
       {/* Post */}
