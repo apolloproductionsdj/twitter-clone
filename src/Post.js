@@ -8,7 +8,7 @@ import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
 import PublishIcon from '@material-ui/icons/Publish';
 
 
-function Post({displayName, userName, verified, text, image, avatar}) {
+function Post({displayName, username, verified, text, image, avatar}) {
   return (
     <div className="post">
       <div className="post__avatar">
@@ -20,7 +20,7 @@ function Post({displayName, userName, verified, text, image, avatar}) {
             <h3>
               {displayName}{" "}
               <span className="post__headerSpecial">
-                {verified && <VerifiedUserIcon className="post__badge"/>} @{userName}
+                {verified && <VerifiedUserIcon className="post__badge"/>} @{username}
               </span>
             </h3>
           </div>
